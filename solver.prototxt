@@ -1,0 +1,18 @@
+net: "train_val.prototxt"
+test_iter: 100
+test_interval: 1000
+base_lr: 0.01
+lr_policy: "step"
+gamma: 0.1
+stepsize: 50000
+display: 20
+max_iter: 225000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+<<<<<<< HEAD
+snapshot_prefix: "/home/alisc/Snapshot/AlexNet/train_VReLU"
+=======
+snapshot_prefix: "/home/alisc/Snapshot/AlexNet/train_minrelu"
+>>>>>>> 1213020bd83261ec0e1790e2c7df1179ae8d44fa
+solver_mode: GPU
